@@ -32,7 +32,7 @@ const handlesubmit = async (e) =>{
   e.preventDefault()
   try{
     const response = await axios.post(
-      'http://localhost:5000/api/users',
+      'https://task1-backend-phi.vercel.app/api/users',
        formdata)
        console.log(formdata)
        alert('Form submitted successfully!')
